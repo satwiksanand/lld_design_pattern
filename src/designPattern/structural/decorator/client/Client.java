@@ -1,7 +1,7 @@
 package designPattern.structural.decorator.client;
 
-import designPattern.structural.decorator.example.Coffee;
-import designPattern.structural.decorator.example.CondimentsDetails;
+import designPattern.structural.decorator.example.attempt1.Coffee;
+import designPattern.structural.decorator.example.attempt1.CondimentsDetails;
 
 public class Client {
     public static void main(String[] args){

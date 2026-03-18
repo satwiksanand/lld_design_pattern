@@ -1,4 +1,4 @@
-package designPattern.structural.decorator.example;
+package designPattern.structural.decorator.example.attempt1;
 
 public class CondimentsDetails {
     private static int mochaCost;

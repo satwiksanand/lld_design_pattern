@@ -1,6 +1,6 @@
-package designPattern.structural.decorator.example;
+package designPattern.structural.decorator.example.attempt1;
 
-public class Coffee extends Beverage{
+public class Coffee extends Beverage {
 
     private int coffeeCost = 0;
 
