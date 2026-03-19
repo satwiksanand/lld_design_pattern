@@ -4,13 +4,20 @@ import designPattern.structural.decorator.example.attempt2.abstractClasses.Bever
 import designPattern.structural.decorator.example.attempt2.abstractClasses.CondimentDecorator;
 import designPattern.structural.decorator.example.attempt2.utils.CondimentDetails;
 
+import java.util.List;
+
 public class Whip extends CondimentDecorator {
     public Whip(Beverage beverage){
         this.beverage = beverage;
     }
 
-    public String getDescription(){
-        return beverage.getDescription() + ", whip cream";
+    public List<String> getDescription(){
+        if(description != null){
+            return description;
+        }
+        description = beverage.getDescription();
+        description.add("whipped cream");
+        return description;
     }
 
     public float cost() {

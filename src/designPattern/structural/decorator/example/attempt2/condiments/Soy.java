@@ -4,13 +4,20 @@ import designPattern.structural.decorator.example.attempt2.abstractClasses.Bever
 import designPattern.structural.decorator.example.attempt2.abstractClasses.CondimentDecorator;
 import designPattern.structural.decorator.example.attempt2.utils.CondimentDetails;
 
+import java.util.List;
+
 public class Soy extends CondimentDecorator {
     Soy(Beverage beverage){
         this.beverage = beverage;
     }
 
-    public String getDescription() {
-        return beverage.getDescription() + ", soy";
+    public List<String> getDescription() {
+        if(description != null){
+            return description;
+        }
+        description = beverage.getDescription();
+        description.add("soy");
+        return description;
     }
 
     public float cost() {
