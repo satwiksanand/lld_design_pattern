@@ -1,7 +1,10 @@
 package designPattern.structural.decorator.client;
 
-import designPattern.structural.decorator.example.attempt1.Coffee;
-import designPattern.structural.decorator.example.attempt1.CondimentsDetails;
+import designPattern.structural.decorator.starbuzzCoffee.attempt1.Coffee;
+import designPattern.structural.decorator.starbuzzCoffee.attempt1.CondimentsDetails;
+
+//decorator pattern is used for attaching additional functionalities to a class, decorator provides a new approach for extending
+//a functionality other than sub-classing.
 
 public class Client {
     public static void main(String[] args){

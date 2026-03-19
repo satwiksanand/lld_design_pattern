@@ -1,8 +1,8 @@
-package designPattern.structural.decorator.example.attempt2.condiments;
+package designPattern.structural.decorator.starbuzzCoffee.attempt2.condiments;
 
-import designPattern.structural.decorator.example.attempt2.abstractClasses.Beverage;
-import designPattern.structural.decorator.example.attempt2.abstractClasses.CondimentDecorator;
-import designPattern.structural.decorator.example.attempt2.utils.CondimentDetails;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.abstractClasses.Beverage;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.abstractClasses.CondimentDecorator;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.utils.CondimentDetails;
 
 import java.util.List;
 

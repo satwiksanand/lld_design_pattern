@@ -1,4 +1,4 @@
-package designPattern.structural.decorator.example.attempt2.utils;
+package designPattern.structural.decorator.starbuzzCoffee.attempt2.utils;
 
 public class BeverageDetails {
     private static float darkRoastCost = 1.99f;

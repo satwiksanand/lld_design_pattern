@@ -1,12 +1,10 @@
-package designPattern.structural.decorator.example.attempt2;
+package designPattern.structural.decorator.starbuzzCoffee.attempt2;
 
-import designPattern.structural.decorator.example.attempt2.abstractClasses.Beverage;
-import designPattern.structural.decorator.example.attempt2.abstractClasses.Size;
-import designPattern.structural.decorator.example.attempt2.beverages.HouseBlend;
-import designPattern.structural.decorator.example.attempt2.condiments.Mocha;
-import designPattern.structural.decorator.example.attempt2.condiments.Whip;
-
-import java.util.List;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.abstractClasses.Beverage;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.abstractClasses.Size;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.beverages.HouseBlend;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.condiments.Mocha;
+import designPattern.structural.decorator.starbuzzCoffee.attempt2.condiments.Whip;
 
 public class Client {
     public static void main(String[] args)
